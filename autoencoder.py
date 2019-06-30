@@ -5,13 +5,13 @@ import cv2
 import util
 
 IMG_DIR 		= './cropped_celeba/'
-OUT_IMG_DIR_INT	= './aen_generated_images_intermediate/'
-OUT_IMG_DIR_TST	= './aen_generated_images_test/'
+OUT_IMG_DIR_INT	= './results/aen_intermediate/'
+OUT_IMG_DIR_TST	= './results/aen_test/'
 
 IMG_NUM		= 20000
 IMG_SIZE	= 64
 BATCH_SIZE	= 50
-EPOCH_NUM	= 30
+EPOCH_NUM	= 40
 
 class Autoencoder(object):
 	def __init__(self):
